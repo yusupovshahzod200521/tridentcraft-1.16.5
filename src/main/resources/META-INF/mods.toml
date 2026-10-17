@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+
+[[mods]]
+modId="tridentcraft"
+version="1.0.0"
+displayName="Trident Craft"
+description='''
+Uch shoxli nayzani (trident) 6 ta olmos va 1 ta tayoqcha bilan craft qilish imkonini beradi.
+'''
+
+[[dependencies.tridentcraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tridentcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
